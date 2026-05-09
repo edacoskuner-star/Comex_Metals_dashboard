@@ -1,0 +1,9 @@
+import { alertStore } from './lib/stores/alertStore.js';
+
+// Uyarı ekle
+alertStore.addAlert(
+  'Fiyat Uyarısı',
+  'Altın fiyatı $2000 üstüne çıktı!',
+  'warning',
+  5000 // 5 saniye
+);
